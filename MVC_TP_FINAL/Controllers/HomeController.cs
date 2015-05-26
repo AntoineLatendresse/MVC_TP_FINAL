@@ -18,6 +18,16 @@ namespace MVC_TP_FINAL.Controllers
             return View();
         }
 
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+
+        public ActionResult Calendar()
+        {
+            return View();
+        }
+
         public ActionResult Login()
         {
             return View();
