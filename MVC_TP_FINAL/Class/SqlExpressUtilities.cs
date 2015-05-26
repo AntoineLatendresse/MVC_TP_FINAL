@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Web.UI.WebControls;
 using System.Web.UI;
 
-namespace Labo2.Class
+namespace MVC_TP_FINAL.Class
 {
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // SqlExpressWrapper version beta

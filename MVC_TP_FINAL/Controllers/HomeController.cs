@@ -15,15 +15,26 @@ namespace MVC_TP_FINAL.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            return View();
+        }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        public ActionResult List()
+        {
+            return View();
+        }
+
+        public ActionResult Subscribe()
+        {
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

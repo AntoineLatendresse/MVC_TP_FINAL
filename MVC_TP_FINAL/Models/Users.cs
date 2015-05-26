@@ -63,11 +63,11 @@ namespace MVC_TP_FINAL.Models
         }
         public override void Insert()
         {
-            InsertRecord(Prenom, Nom, Telephone, Code_Postal, Naissance, Sexe, Etat_Civil, Picture);
+            InsertRecord(Prenom, Nom, Telephone, CodePostal, Naissance, Sexe, EtatCivil, Picture);
         }
         public override void Update()
         {
-            UpdateRecord(Id, Prenom, Nom, Telephone, Code_Postal, Naissance, Sexe, Etat_Civil, Picture);
+            UpdateRecord(Id, Prenom, Nom, Telephone, CodePostal, Naissance, Sexe, EtatCivil, Picture);
         }
     }
 }
