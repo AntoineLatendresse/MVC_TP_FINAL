@@ -37,14 +37,14 @@ namespace MVC_TP_FINAL.Models
         public override void GetValues()
         {
             Id = int.Parse(this["ID"]);
-            Prenom = this["PRENOM"];
-            Nom = this["NOM"];
-            Telephone = this["TELEPHONE"];
-            CodePostal = this["CODEPOSTAL"];
-            Naissance = DateTime.Parse(this["NAISSANCE"]);
-            Sexe = int.Parse(this["SEXE"]);
-            EtatCivil = int.Parse(this["ETATCIVIL"]);
-            Picture = this["PICTURE"];
+            Prenom = this["Prenom"];
+            Nom = this["Nom"];
+            Telephone = this["Telephone"];
+            CodePostal = this["CodePostal"];
+            Naissance = DateTime.Parse(this["Naissance"]);
+            Sexe = int.Parse(this["Sexe"]);
+            EtatCivil = int.Parse(this["EtatCivil"]);
+            Picture = this["Picture"];
         }
 
         public String GetAvatarURL()
@@ -56,11 +56,12 @@ namespace MVC_TP_FINAL.Models
             }
             else
             {
-                url = @"Avatars/" + Picture + ".png";
+                url = @"Images/" + Picture + ".jpg";
             }
 
             return url;
         }
+
         public override void Insert()
         {
             InsertRecord(Prenom, Nom, Telephone, CodePostal, Naissance, Sexe, EtatCivil, Picture);

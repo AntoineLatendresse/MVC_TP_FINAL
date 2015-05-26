@@ -28,7 +28,6 @@ C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\bin\fr\System.Web.Razor.resou
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\bin\fr\System.Web.WebPages.resources.dll
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\bin\fr\System.Web.WebPages.Razor.resources.dll
-C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\obj\Debug\MVC_TP_FINAL.csprojResolveAssemblyReference.cache
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\obj\Debug\MVC_TP_FINAL.dll
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\obj\Debug\MVC_TP_FINAL.pdb
 C:\Users\Antoine\Desktop\MVC_TP_FINAL\MVC_TP_FINAL\bin\DayPilot.Web.Mvc.dll

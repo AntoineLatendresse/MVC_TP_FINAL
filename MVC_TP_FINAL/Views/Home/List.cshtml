@@ -45,10 +45,10 @@
     <tr>
         @while (Model.Next())
         {
-            <td><img alt=@Model.Id src=@Model.Picture onmousedown="BorderDown(this)" onmouseup="BorderUp(this)" /><br /><span>@Model.Prenom @Model.Nom</span></td>
+            <td><img alt=@Model.Id src=@Model.GetAvatarURL() onmousedown="BorderDown(this)" onmouseup="BorderUp(this)" /><br /><span>@Model.Prenom @Model.Nom</span></td>
             if ((Model.Id % 5) == 0)
             {
-                @Html.Raw("</tr>");
+            @Html.Raw("</tr>");
             @Html.Raw("<tr>");
             }
         }

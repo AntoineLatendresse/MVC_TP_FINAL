@@ -111,7 +111,9 @@
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Users\" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -120,6 +122,7 @@
     <Compile Include="Controllers\CalendarController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -129,6 +132,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Calendar.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Gallery.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -136,6 +140,10 @@
     <Content Include="App_Data\DayPilot.mdf" />
     <Content Include="App_Data\DayPilot_log.ldf">
       <DependentUpon>DayPilot.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Gallery.mdf" />
+    <Content Include="App_Data\Gallery_log.ldf">
+      <DependentUpon>Gallery.mdf</DependentUpon>
     </Content>
     <Content Include="App_Data\MainDB.mdf" />
     <Content Include="App_Data\MainDB_log.ldf">
@@ -147,6 +155,21 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="ImagesGallery\anonymous.jpg" />
+    <Content Include="ImagesGallery\assassin.jpg" />
+    <Content Include="ImagesGallery\d3.jpg" />
+    <Content Include="ImagesGallery\dayz.jpg" />
+    <Content Include="ImagesGallery\got.jpg" />
+    <Content Include="ImagesGallery\gta.jpg" />
+    <Content Include="ImagesGallery\h1z1.jpg" />
+    <Content Include="ImagesGallery\pacman.jpg" />
+    <Content Include="ImagesGallery\walkingdead.jpg" />
+    <Content Include="ImagesGallery\wow.jpg" />
+    <Content Include="Images\anonymous.jpg" />
+    <Content Include="Images\champ.jpg" />
+    <Content Include="Images\eau.jpg" />
+    <Content Include="Images\espace.jpg" />
+    <Content Include="Images\tigre.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Models\Calendar.dbml">
@@ -184,6 +207,7 @@
     <Content Include="Views\Event\Edit.cshtml" />
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Modify.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Models\Calendar.dbml.layout">

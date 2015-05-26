@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC_TP_FINAL.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -28,6 +29,11 @@ namespace MVC_TP_FINAL.Controllers
             return View();
         }
 
+        public ActionResult Modify(Users user)
+        {
+            return View(user);
+        }
+
         public ActionResult Login()
         {
             return View();
@@ -35,7 +41,9 @@ namespace MVC_TP_FINAL.Controllers
 
         public ActionResult List()
         {
-            return View();
+            Users user = new Users(Session["MainDB"]);
+            user.SelectAll();
+            return View(user);
         }
 
         public ActionResult Subscribe()
